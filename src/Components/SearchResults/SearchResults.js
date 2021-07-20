@@ -1,7 +1,7 @@
 import React from "react";
-import "./SearchBar.css";
+import "./SearchResults.css";
 
-class SearchBar extends React.Component {
+class SearchResults extends React.Component {
   render() {
     return (
             <div className="SearchResults">
@@ -12,4 +12,4 @@ class SearchBar extends React.Component {
   }
 }
 
-export default SearchBar;
+export default SearchResults;
