@@ -9,8 +9,8 @@ class Track extends React.Component {
         return (
                 <div className="Track">
                 <div className="Track-information">
-                    <h3><!-- track name will go here --></h3>
-                    <p><!-- track artist will go here--> | <!-- track album will go here --></p>
+                    <h3>track name </h3>
+                    <p>track artist | track album </p>
                 </div>
                 {this.renderAction}
                 </div>
