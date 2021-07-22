@@ -26,7 +26,7 @@ class App extends React.Component {
 
   addTrack(track) {
     let tracks = this.state.playListTracks
-    if (track in tracks){
+    if (tracks.find(savedTrack=> savedTrack.id === track.id)){
       return
     } 
     tracks.push(track);
