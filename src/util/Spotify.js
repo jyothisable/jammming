@@ -1,12 +1,11 @@
-
 let accessToken ='';
-const clientId = '9fcf8e79388b4be3b4e8c8daeef56bcc'
-const redirectUrl = "http://localhost:3000/";
+const clientId = "fd510668fbe04a44bfa724b6bd29579b";
+const redirectUrl = "https://jyothisable-spotify.surge.sh/";
 
 const Spotify = {
     getAccessToken() {
         if (accessToken){
-            console.log(accessToken)
+            // console.log(accessToken)
             return accessToken;
         }
         // check for accessToken
