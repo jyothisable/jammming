@@ -18,7 +18,7 @@ class Playlist extends React.Component {
           onChange={this.handleNameChange}
         />
         <TrackList
-          tracks={this.props.playListTracks}
+          tracks={this.props.playlistTracks}
           onRemove={this.props.onRemove}
           isRemoval={true}
         />

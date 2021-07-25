@@ -6,6 +6,7 @@ const redirectUrl = "http://localhost:3000/";
 const Spotify = {
     getAccessToken() {
         if (accessToken){
+            console.log(accessToken)
             return accessToken;
         }
         // check for accessToken
@@ -58,7 +59,7 @@ const Spotify = {
         ).then(response => response.json()
         ).then(jsonResponse => {
             userId = jsonResponse.id;
-            return fetch(`https://api.spotify.com/v1/users/${userId}/playlist/`,
+            return fetch(`https://api.spotify.com/v1/users/${userId}/playlists/`,
             {
                 headers: headers,
                 method:'POST',
@@ -66,7 +67,7 @@ const Spotify = {
             }).then(response=> response.json()
             ).then(jsonResponse => {
                 const playlistId = jsonResponse.id;
-                return fetch(`https://api.spotify.com/v1/users/${userId}/playlist/${playlistId}/tracks`,
+                return fetch(`https://api.spotify.com/v1/users/${userId}/playlists/${playlistId}/tracks`,
                 {
                     headers: headers,
                     method:'POST',
