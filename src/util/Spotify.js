@@ -1,6 +1,6 @@
 let accessToken ='';
 const clientId = "fd510668fbe04a44bfa724b6bd29579b";
-const redirectUrl = "https://jyothisable.netlify.app/";
+const redirectUrl = "https://jyothisable-jamming.netlify.app/";
 
 const Spotify = {
     getAccessToken() {
