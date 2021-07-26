@@ -1,4 +1,4 @@
 # Jamming
 A React app to make a Spotify playlist easily and save it to Spotify account.
 
-## Live Demo: https://jyothisable-spotify.surge.sh/
+## Live Demo: https://jyothisable-jamming.netlify.app/ or https://jyothisable-spotify.surge.sh/
